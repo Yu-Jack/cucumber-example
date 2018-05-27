@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cover": "nyc --reporter=lcov cucumber-js && open coverage/lcov-report/index.html ",
-    "cucumber": "cucumber-js --format json:test/report/cucumber_report.json && node index.js"
+    "cover-report": "open coverage/lcov-report/index.html ",
+    "test": "nyc --reporter=lcov cucumber-js --format json:test/report/cucumber_report.json",
+    "cucumber-report": "node index.js"
   },
   "author": "",
   "license": "ISC",

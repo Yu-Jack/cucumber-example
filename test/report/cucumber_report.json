@@ -22,7 +22,7 @@
             "line": 7,
             "name": "a variable set to 1",
             "match": {
-              "location": "features/step_definition/counter.js:38"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed",
@@ -35,10 +35,11 @@
             "line": 8,
             "name": "I increment the variable by 1",
             "match": {
-              "location": "features/step_definition/counter.js:42"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -47,10 +48,11 @@
             "line": 9,
             "name": "the variable should contain 2",
             "match": {
-              "location": "features/step_definition/counter.js:46"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -69,7 +71,7 @@
             "line": 12,
             "name": "a variable set to 100",
             "match": {
-              "location": "features/step_definition/counter.js:38"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed"
@@ -81,7 +83,7 @@
             "line": 13,
             "name": "I increment the variable by 5",
             "match": {
-              "location": "features/step_definition/counter.js:42"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed"
@@ -93,7 +95,7 @@
             "line": 14,
             "name": "the variable should contain 105",
             "match": {
-              "location": "features/step_definition/counter.js:46"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed"
@@ -115,7 +117,7 @@
             "line": 12,
             "name": "a variable set to 99",
             "match": {
-              "location": "features/step_definition/counter.js:38"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed"
@@ -127,7 +129,7 @@
             "line": 13,
             "name": "I increment the variable by 1234",
             "match": {
-              "location": "features/step_definition/counter.js:42"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed"
@@ -139,7 +141,7 @@
             "line": 14,
             "name": "the variable should contain 1333",
             "match": {
-              "location": "features/step_definition/counter.js:46"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed"
@@ -161,7 +163,7 @@
             "line": 12,
             "name": "a variable set to 12",
             "match": {
-              "location": "features/step_definition/counter.js:38"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed"
@@ -173,7 +175,7 @@
             "line": 13,
             "name": "I increment the variable by 5",
             "match": {
-              "location": "features/step_definition/counter.js:42"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed"
@@ -185,11 +187,10 @@
             "line": 14,
             "name": "the variable should contain 17",
             "match": {
-              "location": "features/step_definition/counter.js:46"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -208,7 +209,7 @@
             "line": 12,
             "name": "a variable set to 12",
             "match": {
-              "location": "features/step_definition/counter.js:38"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed"
@@ -220,7 +221,7 @@
             "line": 13,
             "name": "I increment the variable by 15",
             "match": {
-              "location": "features/step_definition/counter.js:42"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed"
@@ -232,7 +233,7 @@
             "line": 14,
             "name": "the variable should contain 27",
             "match": {
-              "location": "features/step_definition/counter.js:46"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed"
@@ -254,7 +255,7 @@
             "line": 12,
             "name": "a variable set to 12",
             "match": {
-              "location": "features/step_definition/counter.js:38"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
               "status": "passed"
@@ -266,23 +267,24 @@
             "line": 13,
             "name": "I increment the variable by 125",
             "match": {
-              "location": "features/step_definition/counter.js:42"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 14,
-            "name": "the variable should contain 137",
+            "name": "the variable should contain 1372",
             "match": {
-              "location": "features/step_definition/counter.js:46"
+              "location": "features/step_definition/counter.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -137\n    +1372\n\n    at CustomWorld.<anonymous> (/Users/cherri-jack/Desktop/Jack/cucumber-example/features/step_definition/counter.js:10:445)"
             }
           }
         ]
