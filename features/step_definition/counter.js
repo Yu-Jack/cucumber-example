@@ -23,6 +23,10 @@
  CustomWorld.prototype.incrementBy = function(number) {
    this.variable += parseInt(number);
  };
+
+ CustomWorld.prototype.uselessFunction = function(number) {
+   this.variable += parseInt(number);
+ };
  
  setWorldConstructor(CustomWorld);
  

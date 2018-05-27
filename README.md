@@ -6,6 +6,9 @@
 1. Go to `features/step_definition` to check the test code 
 2. Go to `features/counter.feature` to cehck the feature
 
+# Code Coverage
+
+1. `npm run cover`
 
 # 後記
 在 feature 檔案底下會看到, template 的 BDD 型式寫法
